@@ -8,7 +8,7 @@ package campuslands.listas.doblemente;
  *
  * @author camper
  */
-public class ListaDoble {
+public class ListaDoble<T> {
     private Nodo<T> cabeza; 
     private int tamano; 
     
