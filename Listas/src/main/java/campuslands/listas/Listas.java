@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package campuslands.listas;
+package com.mycompany.listas;
 
 /**
  *
@@ -18,6 +18,14 @@ public class Listas {
         listaEntero.agregarInicio(40);
         listaEntero.agregarInicio(12);
         listaEntero.mostrarOrden();
+        listaEntero.mostrarTamano();
+        listaEntero.mostrarInverso();
+        System.out.println("Prueba del nuevo metodo");
+        listaEntero.agregarFinal(14);
+        listaEntero.agregarFinal(25); 
+        listaEntero.agregarFinal(76);
+        listaEntero.mostrarOrden();
+        listaEntero.mostrarInverso();
         listaEntero.mostrarTamano();
     }
 }
